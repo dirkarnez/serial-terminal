@@ -52,6 +52,7 @@ const bufferSize = 8 * 1024; // 8kB
 
 const term = new Terminal({
   scrollback: 10_000,
+  windowsMode: false
 });
 
 const fitAddon = new FitAddon();
