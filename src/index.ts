@@ -53,7 +53,7 @@ const bufferSize = 8 * 1024; // 8kB
 // [Fixing xterm.js EOL Conversion for Tmux Splits #bug-fix #xterm.js #tmux #terminal #eol-conversion #split-panes](https://gist.github.com/GGPrompts/7d40ea1070a45de120261db00f1d7e3a)
 const term = new Terminal({
   scrollback: 10_000,
-  windowsMode: false
+  windowsMode: false,
 });
 
 const fitAddon = new FitAddon();
